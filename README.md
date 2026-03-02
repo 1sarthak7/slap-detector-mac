@@ -223,11 +223,6 @@ Adjust `THRESHOLD` and `SPIKE_RATIO` in `slap.py`. Start with:
 
 ---
 
-## 📜 License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
-
----
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=4000&pause=2000&color=FF6B6B&center=true&vCenter=true&repeat=true&width=500&lines=Made+with+%E2%9D%A4%EF%B8%8F+and+a+lot+of+slapping+%F0%9F%96%90;by+%401sarthak7" alt="Footer" />
