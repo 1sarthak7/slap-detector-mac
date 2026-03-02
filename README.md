@@ -19,7 +19,7 @@
 
 <div align="center">
 
-### 🎯 A real-time slap detection app for macOS that listens through your microphone, detects sharp impact sounds, and plays hilarious audio reactions.
+###  A real-time slap detection app for macOS that listens through your microphone, detects sharp impact sounds, and plays hilarious audio reactions.
 
 *Built for Apple Silicon & Intel Macs • Zero dependencies beyond Python • Fun party trick 🎉*
 
@@ -27,7 +27,7 @@
 
 ---
 
-## 🔥 Features
+##  Features
 
 <table>
 <tr>
@@ -39,7 +39,7 @@ Continuously monitors your MacBook's microphone at **44,100 Hz** with ultra-low 
 </td>
 <td width="50%">
 
-### 📊 Live Visual Meter
+###  Live Visual Meter
 ```
 🎤 [████████░░░░░░░░░░░░░░░░░░░░░░] peak=0.203
 💥 SLAP DETECTED! Playing: smack_01.wav
@@ -51,7 +51,7 @@ Real-time audio level visualization right in your terminal.
 <tr>
 <td width="50%">
 
-### 🧠 Smart Adaptive Threshold
+###  Smart Adaptive Threshold
 Uses an **exponential moving average** to learn ambient noise levels. Dynamically adjusts detection — works in quiet rooms AND noisy environments.
 
 </td>
@@ -66,7 +66,7 @@ Drop `.mp3` or `.wav` files into the `audio/` folder (organized in subfolders!) 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -99,7 +99,7 @@ python slap.py
 
 ---
 
-## 🎛️ Configuration
+##  Configuration
 
 Fine-tune the detection by editing the top of `slap.py`:
 
@@ -112,7 +112,7 @@ Fine-tune the detection by editing the top of `slap.py`:
 | `SAMPLE_RATE` | `44100` | Audio sample rate in Hz |
 | `BLOCK_SIZE` | `1024` | Samples per analysis block (~23ms) |
 
-### 🔧 Tuning Tips
+###  Tuning Tips
 
 ```
 Too many false triggers? → Increase THRESHOLD or SPIKE_RATIO
@@ -123,7 +123,7 @@ Noisy environment?      → Increase SPIKE_RATIO (try 5.0)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 slap-detection-mac/
@@ -141,7 +141,7 @@ slap-detection-mac/
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 ```mermaid
 graph LR
@@ -168,7 +168,7 @@ graph LR
 ## 🛠️ Troubleshooting
 
 <details>
-<summary><b>❌ "No audio files found"</b></summary>
+<summary><b> "No audio files found"</b></summary>
 
 Make sure you have `.wav` or `.mp3` files inside the `audio/` folder or its subfolders:
 ```bash
@@ -177,7 +177,7 @@ ls -R audio/
 </details>
 
 <details>
-<summary><b>❌ Microphone not working / peak always 0.000</b></summary>
+<summary><b> Microphone not working / peak always 0.000</b></summary>
 
 1. Go to **System Settings → Privacy & Security → Microphone**
 2. Enable access for **Terminal** (or your IDE like VS Code)
@@ -185,7 +185,7 @@ ls -R audio/
 </details>
 
 <details>
-<summary><b>❌ ModuleNotFoundError: No module named 'sounddevice'</b></summary>
+<summary><b> ModuleNotFoundError: No module named 'sounddevice'</b></summary>
 
 Make sure you activated the virtual environment:
 ```bash
@@ -195,7 +195,7 @@ pip install sounddevice numpy
 </details>
 
 <details>
-<summary><b>⚠️ Too sensitive / not sensitive enough</b></summary>
+<summary><b> Too sensitive / not sensitive enough</b></summary>
 
 Adjust `THRESHOLD` and `SPIKE_RATIO` in `slap.py`. Start with:
 - Quiet room: `THRESHOLD = 0.15`, `SPIKE_RATIO = 3.0`
@@ -204,7 +204,7 @@ Adjust `THRESHOLD` and `SPIKE_RATIO` in `slap.py`. Start with:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 <p align="center">
   <a href="https://github.com/1sarthak7/slap-detection-mac/issues">
