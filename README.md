@@ -21,7 +21,7 @@
 
 ###  A real-time slap detection app for macOS that listens through your microphone, detects sharp impact sounds, and plays hilarious audio reactions.
 
-*Built for Apple Silicon & Intel Macs • Zero dependencies beyond Python • Fun party trick 🎉*
+*Built for Apple Silicon & Intel Macs and also windows  • Zero dependencies beyond Python • Fun party trick  *
 
 </div>
 
