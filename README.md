@@ -33,7 +33,7 @@
 <tr>
 <td width="50%">
 
-### 🎤 Real-Time Audio Detection
+###  Real-Time Audio Detection
 Continuously monitors your MacBook's microphone at **44,100 Hz** with ultra-low latency (~23ms per block). Catches even the quickest slaps.
 
 </td>
@@ -133,7 +133,7 @@ slap-detection-mac/
 │   │   └── 🔊 *.wav/.mp3
 │   ├── 📁 pain/            # Category: pain reactions
 │   │   └── 🔊 *.wav/.mp3
-│   └── 📁 sexy/            # Category: spicy reactions 😏
+│   └── 📁 sexy/            # Category: spicy reactions 
 │       └── 🔊 *.wav/.mp3
 ├── 📄 README.md
 └── 📁 .venv/               # Virtual environment (not committed)
