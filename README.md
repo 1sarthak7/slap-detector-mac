@@ -94,9 +94,6 @@ pip install sounddevice numpy
 ```bash
 python slap.py
 ```
-
-> **💡 First time?** macOS will ask for microphone permission. Click **Allow**, then restart the script.
-
 ---
 
 ##  Configuration
@@ -165,7 +162,7 @@ graph LR
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 <details>
 <summary><b> "No audio files found"</b></summary>
